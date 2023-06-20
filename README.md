@@ -1,10 +1,4 @@
-# COGS118A Project template
-This is your group repo for your final project for COGS118A
+see ```analysis.ipynb``` for implementation
 
-This repository is publicly visible! We will be using that feature to do peer review of projects.
-
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook).
-
-This is your repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all.
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+### Abstract 
+Twitter has become perhaps the preeminent platform for political discourse, where people express their views on a variety of issues. Given the increasing polarization in the political landscape, it is of great interest to understand how people's political views are reflected in their online behavior. Our goal is to develop a model that accurately predicts whether a tweet is posted by a Republican or Democrat, taking into account both the textual content of the tweet and associated numerical features such as the number of retweets, likes, and followers. We seek to identify the best set of features and models that can effectively capture the relationship between the text and numerical features and the political affiliation of tweet authors. To do so, we scraped 786,000 Tweets made by American members of Congress in a two-year span from 2021 to 2023. After vectorizing the text and fine-tuning a Multinomial Naive Bayes algorithm, we were able to accurately classify Tweets as originating from a Republican or Democratic member of Congress at an 82 percent accuracy with a ROC score of 84.  
